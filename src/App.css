@@ -1,0 +1,67 @@
+.next-steps .fa-link {
+  margin-right: 5px;
+}
+
+/* Fix for use only flexbox in content area */
+.next-steps .row {
+  margin-bottom: 0;
+}
+
+.next-steps .col-md-5 {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+}
+
+.spinner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.result-block-container .result-block {
+  opacity: 1;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
+
+.navbar .router-link-exact-active {
+  color: #041433;
+  border-bottom: 0px;
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: transparent !important;
+  border: 1px solid #ffffff !important;
+  color: #000000 !important;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.btn-primary:hover, btn-primary:not(:disabled):not(.disabled):active,  btn-primary:active{
+  color: #000000;
+  background-color: transparent;
+  border-color: #ffffff;
+}
